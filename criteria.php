@@ -1,7 +1,7 @@
 <?php
 //carrega as classes necessárias
 
-include_once 'TRExpression.class.php';
+include_once 'TExpression.class.php';
 include_once 'Tcriteria.class.php';
 include_once 'TFilter.class.php';
 
