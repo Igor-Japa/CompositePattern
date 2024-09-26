@@ -21,8 +21,8 @@ class TCriteria extends TExpression {
     *@param $operator= operador lògio de comparação
     */
     public function add(TExpression $expression,$operator=self::AND_OPERATOR) {    
-//na primeira vez, não precisamos de operador lógico para concatenar
-if(empty($this->expressions)){
+    //na primeira vez, não precisamos de operador lógico para concatenar
+    if(empty($this->expressions)){
     $operator = NULL:
 }
 //agrega o resultado da expressao a lista de expressões
