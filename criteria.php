@@ -2,7 +2,7 @@
 //carrega as classes necessárias
 
 include_once 'TExpression.class.php';
-include_once 'Tcriteria.class.php';
+include_once 'TCriteria.class.php';
 include_once 'TFilter.class.php';
 
 //aqui vemos um exemplo de criterio utilizando o operador OR
