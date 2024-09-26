@@ -23,7 +23,7 @@ class TCriteria extends TExpression {
     public function add(TExpression $expression,$operator=self::AND_OPERATOR) {    
     //na primeira vez, não precisamos de operador lógico para concatenar
     if(empty($this->expressions)){
-    $operator = NULL:
+    $operator = NULL;
 }
 //agrega o resultado da expressao a lista de expressões
 $this->expressions[] = $expression;
