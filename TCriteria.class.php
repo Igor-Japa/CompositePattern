@@ -1,5 +1,6 @@
 <?php
-
+include_once 'TExpression.class.php';
+include_once 'TFilter.class.php';
 /*
 *classe TCriteria
 *Esta classe prova uma interface utilizada para definição de critérios
@@ -35,7 +36,7 @@ $this->operators[] = $operator;
     */
      public function dump(){
         //concatena a lista de expressoes
-        if(count($this->xpressions)>0){
+        if(count($this->expressions)>0){
             $result='';
             foreach($this->expressions as $i=>$expression){
                 $operator=$this->operators[$i];
